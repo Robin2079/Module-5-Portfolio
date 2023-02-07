@@ -168,3 +168,45 @@ section {
 
 
 /* Resume Section Style */
+.resume-content {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
