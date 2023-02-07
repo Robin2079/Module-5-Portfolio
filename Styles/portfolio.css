@@ -210,3 +210,36 @@ section {
     margin-top: 50px;
     text-align: center;
 }
+
+
+/* Contact Section Title */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title {
+    text-align: left;
+}
+
+.contact .section-description {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+}
