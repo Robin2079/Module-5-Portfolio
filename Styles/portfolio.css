@@ -88,13 +88,14 @@ main {
     margin: 0 auto;
 }
 
-
+section {
+    margin-top: 130px;
+}
 
 /* About Section Start */
 .about {
     background-color: #FFF8F3;
     padding: 131px 157px;
-    margin-top: 130px;
     border-radius: 10px;
 }
 
@@ -104,7 +105,7 @@ main {
     line-height: 48px;
     text-align: center;
     color: #181818;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -136,3 +137,34 @@ main {
     color: #474747;
     text-align: center;
 }
+
+/* What I Do Section */
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-decription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+
+/* Resume Section Style */
